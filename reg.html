@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .input-box{
+        border: solid black 2px;
+        border-radius: 10px;
+        width: 70%;
+        margin-left : 5%;
+        margin-top: 4%;
+        color: black;
+        font-size: 16px;
+    }
+    .input-box:hover{
+        border: black solid 2px;
+        height: 3%;
+        color: black  ;
+    }
+    .input-box:focus{
+        border: black solid 2px;
+        height: 3%;
+        color: black;
+    }
+    .reg-form{
+        border: solid black 2px;
+        height: 50vh;
+        width: 40%;
+        border-radius: 10px;
+        background-color: white;
+        opacity: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    label:hover{
+        color: red;
+    }
+    .btn{
+        width: 25%;
+        margin-left: -5%;
+    }
+    #gender{
+        margin-left: 10%;
+    }
+    .male{
+        margin-left: 8%;
+    }
+</style>
+<body>
+    <form action="" method="GET">
+        <br><br><br>
+        <center><h1>Sign Up</h1></center>
+        <div class="reg-form">
+            <div class="male">
+            &nbsp;&nbsp;First Name&nbsp;&nbsp;<input class="input-box" type="text" required><br>
+            &nbsp;&nbsp;Last Name&nbsp;&nbsp;<input class="input-box" type="text" required><br>
+            &nbsp;&nbsp;Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-box" type="text" required><br>
+            &nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="input-box" type="email" required><br>
+            &nbsp;&nbsp;Contact No.<input class="input-box" type="text" maxlength="10" required><br>
+            &nbsp;&nbsp;PIN Code&nbsp;&nbsp;&nbsp;<input class="input-box" type="number"><br>
+        </div>
+            <br>
+            <center><input type="submit" value="Register" class="input-box btn"></center>
+        </div>
+    </form>
+</body>
+</html>

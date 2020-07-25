@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amarante';
+    font-size: 20px;
+}
+.lnk{
+    text-decoration: none;
+    color: gray;
+    font-family: 'ABeeZee';
+    margin-left: 2%;
+}
+#navbar{
+    margin-top: 1%;
+}
+.imgborder{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+.img1{
+    top: 20%;
+    left:10%;
+}
+.text1{
+    top: 43%;
+    left:12%;
+    position: absolute;
+}
+.img2{
+    top: 20%;
+    right: 45%;
+}
+.text2{
+    top: 43%;
+    right: 50%;
+    position: absolute;
+}
+.img3{
+    top: 20%;
+    right: 10%;
+}
+.text3{
+    top: 43%;
+    right: 12%;
+    position: absolute;
+}
+.img4{
+    bottom: 15%;
+    left:10%;
+}
+.text4{
+    bottom: 1%;
+    left:12%;
+    position: absolute;
+}
+.img5{
+    right: 45%;
+    bottom: 15%;
+}
+.text5{
+    bottom: 1%;
+    right: 47%;
+    position: absolute;
+}
+.img6{
+    right: 10%;
+    bottom: 15%;
+}
+.text6{
+    bottom: 1%;
+    right: 13%;
+    position: absolute;
+}
+.login-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+.input-box{
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center  ;
+}
+.sub{
+    width: 50%;
+    margin-left: 0;
+}
+.buy{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+}
